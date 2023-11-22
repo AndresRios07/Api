@@ -1,0 +1,29 @@
+###
+POST http://localhost:3000/api/users HTTP/1.1
+Content-Type: application/json
+
+{
+    "name": "Samantha Lopez",
+    "age": 43,
+    "email": "samy34@gmail.com"
+}
+
+###
+GET http://localhost:3000/api/users HTTP/1.1
+###
+
+GET http://localhost:3000/api/users/655cef49ee853b793ad227f7 HTTP/1.1
+###
+
+DELETE http://localhost:3000/api/users/655cef47ee853b793ad227f4 HTTP/1.1
+
+###
+PUT http://localhost:3000/api/users/655e3c1df8460e196b8ac898 HTTP/1.1
+Content-Type: application/json
+
+{
+    "name": "Samuel Lopez",
+    "age": 20,
+    "email": "samuelbigman123@gmail.com"
+}
+
